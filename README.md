@@ -1,7 +1,7 @@
-# GANerator
-
-An MVP for applying Machine Learning (ML) in the credit risk modeling lifecycle. 
-
+<div align="center">
+  <h1>GANerator</h1>
+  <h3>An MVP for applying Machine Learning (ML) in the credit risk modeling lifecycle. </h1>
+</div>
 
 It currently contains two types of models:
 
