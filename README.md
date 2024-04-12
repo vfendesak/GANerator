@@ -14,7 +14,8 @@ It currently contains two types of models:
 
 ## Installation
 
-> **NOTE**: For more the whole data set download the [Training Data](https://www.kaggle.com/competitions/home-credit-default-risk/data?select=application_train.csv) and store the files _application_test.csv_ and _application_train.csv_ in the [/data](/data) directory.
+> **NOTE**: The whole data set can be downloaded from [Kaggle](https://www.kaggle.com/competitions/home-credit-default-risk/data?select=application_train.csv).
+> Store the files _application_test.csv_ and _application_train.csv_ in the [/data](/data) directory.
 
 [![PyTorch](https://skillicons.dev/icons?i=pytorch)](https://pytorch.org/)
 [![SkLearn](https://skillicons.dev/icons?i=sklearn)](https://scikit-learn.org/)
