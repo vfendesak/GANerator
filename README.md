@@ -14,6 +14,8 @@ It currently contains two types of models:
 
 ## Installation
 
+> **NOTE**: For more the whole data set download the [Training Data](https://www.kaggle.com/competitions/home-credit-default-risk/data?select=application_train.csv) and store the files _application_test.csv_ and _application_train.csv_ in the [/data](/data) directory.
+
 [![PyTorch](https://skillicons.dev/icons?i=pytorch)](https://pytorch.org/)
 [![SkLearn](https://skillicons.dev/icons?i=sklearn)](https://scikit-learn.org/)
 [![Python](https://skillicons.dev/icons?i=py)](https://python.org/)
@@ -28,7 +30,10 @@ Install requirements and the repo itself:
     pip install -r requirements.txt
     pip install -e .
 
-Download the [Training Data](https://www.kaggle.com/competitions/home-credit-default-risk/data?select=application_train.csv) and store the files _application_test.csv_ and _application_train.csv_ in the [/data](/data) directory.
+Create a new jupyter kernel:
+
+    pip install ipykernel
+    python -m ipykernel install --user --name ganerator-dev
 
 
 ## Usage
