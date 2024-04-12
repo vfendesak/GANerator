@@ -17,12 +17,12 @@ class Loader:
     def __init__(self):
         self.DATA_PATH = Path(__file__).parent.parent / "data"
 
-    def load_data(self, file):
+    def load_data(self, file_name):
         cols = COLS
-        if file == "train":
+        if "train" in file_name:
             cols = cols + ["TARGET"]
         return (
-            pl.read_csv(self.DATA_PATH / f"application_{file}.csv")
+            pl.read_csv(self.DATA_PATH / f"{file_name}.csv")
             .to_pandas()
             .set_index("SK_ID_CURR")[cols]
         )
